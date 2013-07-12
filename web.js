@@ -3,6 +3,7 @@ var express = require('express');
 
 var sys = require('sys'),
     index;
+var fs = require('fs');
  
 fs.readFile('./index.html', function (err, data) {
     if (err) {
