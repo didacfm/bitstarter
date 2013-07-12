@@ -16,6 +16,7 @@ var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
   response.write(index);
+  response.end();
   //response.send('Hello World 2!');
 });
 
